@@ -1,0 +1,40 @@
+body {
+  background: #333;
+  color: #fff; }
+
+.navbar {
+  border-bottom: #29abe2 3px solid;
+  opacity: 0.8;
+  padding-bottom: 0px; }
+
+#home-section {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+#home-section .home-inner {
+  padding-top: 80px; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 53%; }
+
+#benefits img {
+  margin-top: -50px; }
+#benefits .card:hover {
+  background: #29abe2;
+  color: #fff; }
+#benefits .fab {
+  color: #fff; }
+
+@media (max-width: 768px) {
+  .mb-resp {
+    margin-bottom: 1rem; } }
